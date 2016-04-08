@@ -36,7 +36,7 @@ error = T.sum((out1 - y)**2) #error
 
 cost = theano.function(inputs=[x, y], outputs=error, updates=[
         (theta1, grad_desc(error, theta1)),
-        (theta2, grad_desc(error, theta2))])
+        (theta2, grad_desc(error, theta2))]) 
 #output layer expression
 run_forward = theano.function(inputs=[x], outputs=out1)
 
