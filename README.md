@@ -1,4 +1,4 @@
 # BlackBoxChallenge
-Hey Deval! And maybe others. Probably not. This is just so we can share code, all official like, and keep track of versions.
+Training a neural net to work with the blackbox challenge.
 
-I'm not really good at how github works yet but... we'll figure it out. 
+The blackbox challenge is a reinforcement learning paradigm that gives you actions [0,1,2,3] and a reward that changes. Our job is to find the optimal strategy of exploration and exploitation of our possible actions as we learn from our past actions.
